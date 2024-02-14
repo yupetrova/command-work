@@ -1,6 +1,6 @@
-import utils
-n = int(input())
+from utils import *
 
+n = int(input())
 print(utils.Factorial(n))
 
 
