@@ -1,6 +1,6 @@
 from utils import *
 
 n = int(input())
-print(utils.Factorial(n))
+print(utils.factorial(n))
 
 
