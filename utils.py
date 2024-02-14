@@ -1,6 +1,6 @@
 #factorial func
 
-def Factorial(n):
+def factorial(n):
     fact = 1
     if n < 0:
         raise ValueError("Please, input integer >= 0")
