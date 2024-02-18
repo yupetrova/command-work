@@ -28,10 +28,3 @@ def proste(a):
     else:
         return True
 
-number = int(input("Введіть число: "))
-result = power_five(number)
-
-if result:
-    print(f"{number} є степенем п'ятірки.")
-else:
-    print(f"{number} не є степенем п'ятірки.")
