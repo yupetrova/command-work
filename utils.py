@@ -20,6 +20,14 @@ def power_five(num):
 
     return False
 
+# перевірка чи є число просте
+def proste(a):
+    for i in range(2, int(a ** 0.5 + 1)):
+        if a % i == 0:
+            return False
+    else:
+        return True
+
 number = int(input("Введіть число: "))
 result = power_five(number)
 
